@@ -118,12 +118,6 @@ app.use(
 
 app.use(compression());
 
-// app.use((req, _, next) => {
-//   req.requestTime = new Date().toISOString();
-//   // console.log(req.cookies);
-//   next();
-// });
-
 // ROUTES
 app.use('/', viewRouter);
 app.use('/api/v1/tours', tourRouter);

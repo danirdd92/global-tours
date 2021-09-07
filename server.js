@@ -4,7 +4,6 @@ const app = require('./app');
 const port = process.env.PORT || 3000;
 
 process.on('uncaughtException', (err) => {
-  // console.log(err);
   console.log(err.name, err.message);
   console.log(err);
   console.log('UNCAUGHT EXCEPTION. Shutting down...');
