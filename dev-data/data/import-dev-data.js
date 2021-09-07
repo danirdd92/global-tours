@@ -1,4 +1,4 @@
-require('dotenv').config({ path: './config.env' });
+// require('dotenv').config({ path: './config.env' });
 const mongoose = require('mongoose');
 const fs = require('fs');
 const Tour = require('../../models/tour.model');
